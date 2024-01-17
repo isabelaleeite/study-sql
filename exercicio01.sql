@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  /* Questão 1
 
 Você é responsável por controlar os dados de clientes e de produtos da
@@ -15,3 +16,22 @@ SELECT * FROM DimProduct
 
 SELECT * FROM DimCustomer
 -- Possui 19.145. Teve uma diminuição de 355 clientes.
+=======
+ /* Questão 1
+
+Você é responsável por controlar os dados de clientes e de produtos da
+sua empresa. O que você precisará fazer é confirmar se:
+
+a. Existem 2.517 produtos cadastrados na base e, se não tiver, você
+deverá reportar ao seu gestor para saber se existe alguma defasagem
+no controle dos produtos.
+
+b. Até o mês passado, a empresa tinha um total de 19.500 clientes na
+base de controle. Verifique se esse número aumentou ou reduziu. */
+
+SELECT * FROM DimProduct
+-- Existem 2.517 produtos cadastrados na base.
+
+SELECT * FROM DimCustomer
+-- Possui 19.145. Teve uma diminuição de 355 clientes.
+>>>>>>> 3c024bd405ab0f11358b7b98a391af0cc7b9efb4

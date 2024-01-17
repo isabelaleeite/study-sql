@@ -1,3 +1,4 @@
+
 /* Questão 4
 
 A empresa Contoso precisa fazer contato com os fornecedores de
@@ -6,3 +7,8 @@ descobrir quem são esses fornecedores.
 Utilize um comando em SQL para retornar apenas os nomes dos
 fornecedores na tabela dimProduct e renomeie essa nova coluna da
 tabela.*/
+
+SELECT 
+	DISTINCT Manufacturer AS 'Produtor' 
+FROM 
+	DimProduct
